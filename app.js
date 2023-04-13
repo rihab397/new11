@@ -7,7 +7,7 @@ let p2 = 4000;
 app.use(express.static('images'))
 var port = p1
 app.set('view engine', 'ejs') 
-let s=0;
+
 
 app.get('/chat', function (req, res) {
   res.sendFile(path.join(__dirname + '/lobby.html'));
