@@ -2,8 +2,8 @@
 const express = require('express')
 const app = express()
 let path = require("path");
-// let p1 = process.env.PORT || 1370 || 2000 || 5000;
-let p1 = 4000;
+let p1 = process.env.PORT || 1370 || 2000 || 5000;
+let p2 = 4000;
 app.use(express.static('images'))
 var port = p1
 app.set('view engine', 'ejs') 
